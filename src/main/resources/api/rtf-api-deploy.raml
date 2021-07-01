@@ -1,0 +1,13 @@
+#%RAML 1.0
+title: rtf-api-deploy
+
+/hi:
+  get:
+    description: Return hello world
+    displayName: Return hello world
+    responses:
+      200:
+        body:
+          application/json:
+            type: string
+            example: "Hello from API on RTF!"
